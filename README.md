@@ -1,89 +1,91 @@
-# Human-Centered Security Program
+# The Human Side of Security
 
-## Overview
+## Designing a Security Program People Can Actually Follow
 
-This portfolio project explores how cybersecurity governance and security controls operate in a real-world business environment.
-
-The project is built around a fictional non-emergency medical transportation organization, Meridian Care Transport, where employees, drivers, healthcare partners, technology platforms, and third-party vendors must work together to protect sensitive information while maintaining reliable transportation services.
-
-The central question guiding this project is:
+**Project 01 — Human-Centered Security Program**
 
 > **What happens when security controls meet real people doing real work?**
 
-Rather than treating security controls as isolated technical or compliance requirements, this project examines how security depends on the interaction between people, processes, technology, ownership, documentation, and operational realities.
+---
+
+## Project Overview
+
+Security controls do not operate in isolation.
+
+They exist inside organizations where employees are working under deadlines, drivers are operating in the field, dispatchers are coordinating time-sensitive activity, warehouse teams are moving freight, managers are dealing with exceptions, vendors are providing technology services, and customers expect operations to continue without interruption.
+
+This project examines cybersecurity from that operational perspective.
+
+Using a fictional logistics organization called **Peachtree Logistics Group (PLG)**, I will design a human-centered security program that connects governance requirements and security controls to the people, processes, technologies, and third parties responsible for carrying them out.
+
+The goal is not simply to identify which controls an organization should have.
+
+The goal is to determine whether those controls can actually work in the real world.
 
 ---
 
 ## Business Scenario
 
-Meridian Care Transport is a fictional non-emergency medical transportation company serving the Atlanta metropolitan area.
+**Peachtree Logistics Group (PLG)** is a fictional regional logistics company headquartered in Atlanta, Georgia and operating throughout the Southeastern United States.
 
-The organization provides scheduled transportation for elderly, disabled, and medically vulnerable passengers traveling to hospitals, clinics, dialysis centers, rehabilitation facilities, and other healthcare providers.
+PLG employs approximately **225 people** and provides several logistics services:
 
-Its operations rely on drivers, dispatchers, operations personnel, healthcare partners, transportation brokers, third-party service providers, and cloud-based technology platforms.
+- Warehousing
+- Last-mile delivery
+- Medical courier services
+- Freight brokerage
 
-Because these services involve sensitive passenger information, mobile devices, cloud platforms, GPS data, third-party relationships, and time-sensitive operational processes, Meridian faces both cybersecurity and operational risks.
+The organization operates a corporate office and two warehouse facilities.
 
----
+Its workforce includes:
 
-## Project Objectives
+- Corporate employees
+- Warehouse personnel
+- Dispatchers
+- Drivers
+- Independent couriers and contractors
+- Operations managers
+- IT personnel
+- Third-party vendors
 
-This project will:
-
-- Identify key business processes, systems, users, and sensitive data.
-- Analyze cybersecurity and operational risks.
-- Develop a risk register.
-- Map identified risks to appropriate security controls.
-- Examine how controls are implemented through real operational workflows.
-- Define control ownership, evidence, monitoring, exceptions, and escalation.
-- Develop human-centered security practices that employees can realistically follow.
-- Define security metrics and key risk indicators.
-- Demonstrate how governance requirements translate into day-to-day operations.
-
----
-
-## Project Methodology
-
-The project will be developed in several phases:
-
-1. Business Context
-2. Stakeholder Analysis
-3. Asset and System Inventory
-4. Data Flow Analysis
-5. Threat Identification
-6. Risk Assessment
-7. Security Framework Selection
-8. Security Control Mapping
-9. Operational Control Design
-10. Human-Centered Security Program
-11. Incident Scenarios
-12. Security Metrics and KRIs
-13. Final Security Recommendations
+PLG depends on a combination of cloud services, logistics applications, mobile devices, warehouse technology, and on-premises infrastructure to conduct daily operations.
 
 ---
 
-## Repository Structure
+## Technology Environment
 
-As the project develops, supporting documentation and artifacts will be added to this repository.
+The project assumes a mixed cloud and on-premises technology environment.
+
+Key technologies include:
+
+- Microsoft 365
+- Cloud-based logistics and freight platforms
+- Dispatch and delivery applications
+- Driver mobile devices
+- Warehouse systems
+- Identity and access management
+- Billing and accounting systems
+- On-premises servers
+- Corporate and warehouse networks
+- Records and document storage systems
+
+This environment creates security dependencies across office, warehouse, cloud, and field operations.
+
+---
+
+## Business Processes
+
+The primary logistics workflow evaluated in this project is:
 
 ```text
-human-centered-security-program/
-│
-├── README.md
-│
-├── docs/
-│   ├── business-context.md
-│   ├── stakeholder-analysis.md
-│   ├── asset-inventory.md
-│   ├── data-flow-analysis.md
-│   ├── risk-assessment.md
-│   ├── control-mapping.md
-│   └── security-program.md
-│
-├── risk-register/
-│
-├── diagrams/
-│
-├── evidence/
-│
-└── final-report/
+Receive Customer Order
+        ↓
+Review and Schedule Order
+        ↓
+Assign Driver and Dispatch
+        ↓
+Perform Pickup and Delivery
+        ↓
+Confirm Delivery
+        ↓
+Process Billing and Retain Records
