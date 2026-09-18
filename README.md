@@ -352,9 +352,9 @@ The result is a portfolio project that treats cybersecurity as a coordinated sys
 GRC and Cloud Security Practitioner in Transition  
 Atlanta, Georgia
 
-- LinkedIn: `[Add LinkedIn URL]`
-- Portfolio: `[Add portfolio URL]`
-- GitHub: `[Add GitHub profile URL]`
+- LinkedIn: `https://www.linkedin.com/in/tommymarshallcse/`
+- Portfolio: `https://github.com/neofyte-grc`
+- GitHub: `https://github.com/neofyte-grc`
 
 ## Portfolio Disclaimer
 
